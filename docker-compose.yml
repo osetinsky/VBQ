@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  vbq:
+    build: .
+    environment:
+      - MAX_WORKERS=8
+    volumes:
+      - ./analysis:/app/analysis
+      - ./data:/app/data
