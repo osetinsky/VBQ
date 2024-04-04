@@ -1,3 +1,6 @@
+# p.osetinsky@gmail.com
+# revised by LLMs
+
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import ffmpeg
 import librosa
