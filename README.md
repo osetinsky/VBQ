@@ -12,12 +12,18 @@ You'll need Docker running to build and run the application. After running, you 
 `/analysis/<timestamped_directory>/outputs/final_output.mp4`
 
 ### Demo
-`make build`
-`make run-default` (uses an example video and audio file)
+(uses an example video and audio file)
+
+```
+make build
+make run-default
+```
 
 ### Personal usage
-`make build`
-`make run VIDEO=<my_video.mp4> AUDIO=<my_audio.wav>`
+```
+make build
+make run VIDEO=<my_video.mp4> AUDIO=<my_audio.wav>
+```
 
 ## How It Works
 ### Video Analysis (ffmpeg)
